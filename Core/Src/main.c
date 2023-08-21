@@ -55,6 +55,11 @@ float pitot_velocity ;
 
 uint8_t Sbus_Buffer[25]; // SBUS
 uint16_t Command_Channels[18];
+/* Command_Channels >>>> 7 > Switch A  and 8 > Switch B  which their values between 630-640 and 1220-1230
+ * Command_Channels >>>> 9 > Vr Knob A and 10 > Vr Knob B which their values between 0-2000 but non-step
+ * Command_Channels >>>> 4 > Throttle 200-1600-100  5 > Rudder 450 - 1200 - 480
+ * Command_Channels >>>> 2 and 3 Aileron-Elevator 50-2000 (I will consider again)
+ */
 
 /* USER CODE END PD */
 
